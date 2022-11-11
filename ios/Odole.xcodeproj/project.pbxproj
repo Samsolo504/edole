@@ -9,6 +9,22 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* OdoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* OdoleTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-Odole.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Odole.a */; };
+		121BE98C291CF53500F48A42 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE97C291CF53400F48A42 /* SimpleLineIcons.ttf */; };
+		121BE98D291CF53500F48A42 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE97D291CF53400F48A42 /* EvilIcons.ttf */; };
+		121BE98E291CF53500F48A42 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE97E291CF53400F48A42 /* FontAwesome5_Brands.ttf */; };
+		121BE98F291CF53500F48A42 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE97F291CF53400F48A42 /* FontAwesome5_Solid.ttf */; };
+		121BE990291CF53500F48A42 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE980291CF53400F48A42 /* Feather.ttf */; };
+		121BE991291CF53500F48A42 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE981291CF53400F48A42 /* Zocial.ttf */; };
+		121BE992291CF53500F48A42 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE982291CF53400F48A42 /* MaterialIcons.ttf */; };
+		121BE993291CF53500F48A42 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE983291CF53400F48A42 /* Foundation.ttf */; };
+		121BE994291CF53500F48A42 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE984291CF53400F48A42 /* Entypo.ttf */; };
+		121BE995291CF53500F48A42 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE985291CF53500F48A42 /* Ionicons.ttf */; };
+		121BE996291CF53500F48A42 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE986291CF53500F48A42 /* MaterialCommunityIcons.ttf */; };
+		121BE997291CF53500F48A42 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE987291CF53500F48A42 /* Octicons.ttf */; };
+		121BE998291CF53500F48A42 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE988291CF53500F48A42 /* Fontisto.ttf */; };
+		121BE999291CF53500F48A42 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE989291CF53500F48A42 /* FontAwesome5_Regular.ttf */; };
+		121BE99A291CF53500F48A42 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE98A291CF53500F48A42 /* FontAwesome.ttf */; };
+		121BE99B291CF53500F48A42 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121BE98B291CF53500F48A42 /* AntDesign.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -30,6 +46,22 @@
 		00E356EE1AD99517003FC87E /* OdoleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OdoleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* OdoleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OdoleTests.m; sourceTree = "<group>"; };
+		121BE97C291CF53400F48A42 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		121BE97D291CF53400F48A42 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		121BE97E291CF53400F48A42 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		121BE97F291CF53400F48A42 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		121BE980291CF53400F48A42 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		121BE981291CF53400F48A42 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		121BE982291CF53400F48A42 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		121BE983291CF53400F48A42 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		121BE984291CF53400F48A42 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		121BE985291CF53500F48A42 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		121BE986291CF53500F48A42 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		121BE987291CF53500F48A42 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		121BE988291CF53500F48A42 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		121BE989291CF53500F48A42 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		121BE98A291CF53500F48A42 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		121BE98B291CF53500F48A42 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Odole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Odole.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Odole/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Odole/AppDelegate.mm; sourceTree = "<group>"; };
@@ -83,9 +115,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		121BE97B291CF46B00F48A42 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				121BE98B291CF53500F48A42 /* AntDesign.ttf */,
+				121BE984291CF53400F48A42 /* Entypo.ttf */,
+				121BE97D291CF53400F48A42 /* EvilIcons.ttf */,
+				121BE980291CF53400F48A42 /* Feather.ttf */,
+				121BE98A291CF53500F48A42 /* FontAwesome.ttf */,
+				121BE97E291CF53400F48A42 /* FontAwesome5_Brands.ttf */,
+				121BE989291CF53500F48A42 /* FontAwesome5_Regular.ttf */,
+				121BE97F291CF53400F48A42 /* FontAwesome5_Solid.ttf */,
+				121BE988291CF53500F48A42 /* Fontisto.ttf */,
+				121BE983291CF53400F48A42 /* Foundation.ttf */,
+				121BE985291CF53500F48A42 /* Ionicons.ttf */,
+				121BE986291CF53500F48A42 /* MaterialCommunityIcons.ttf */,
+				121BE982291CF53400F48A42 /* MaterialIcons.ttf */,
+				121BE987291CF53500F48A42 /* Octicons.ttf */,
+				121BE97C291CF53400F48A42 /* SimpleLineIcons.ttf */,
+				121BE981291CF53400F48A42 /* Zocial.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* Odole */ = {
 			isa = PBXGroup;
 			children = (
+				121BE97B291CF46B00F48A42 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -181,9 +237,8 @@
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
-				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				C91F35BA5A69A539C0EB5967 /* [CP] Embed Pods Frameworks */,
+				5BE7BED24F7AAE267F976D3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,45 +297,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121BE991291CF53500F48A42 /* Zocial.ttf in Resources */,
+				121BE994291CF53500F48A42 /* Entypo.ttf in Resources */,
+				121BE999291CF53500F48A42 /* FontAwesome5_Regular.ttf in Resources */,
+				121BE995291CF53500F48A42 /* Ionicons.ttf in Resources */,
+				121BE993291CF53500F48A42 /* Foundation.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				121BE99B291CF53500F48A42 /* AntDesign.ttf in Resources */,
+				121BE990291CF53500F48A42 /* Feather.ttf in Resources */,
+				121BE98D291CF53500F48A42 /* EvilIcons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				121BE992291CF53500F48A42 /* MaterialIcons.ttf in Resources */,
+				121BE98F291CF53500F48A42 /* FontAwesome5_Solid.ttf in Resources */,
+				121BE997291CF53500F48A42 /* Octicons.ttf in Resources */,
+				121BE996291CF53500F48A42 /* MaterialCommunityIcons.ttf in Resources */,
+				121BE998291CF53500F48A42 /* Fontisto.ttf in Resources */,
+				121BE98C291CF53500F48A42 /* SimpleLineIcons.ttf in Resources */,
+				121BE98E291CF53500F48A42 /* FontAwesome5_Brands.ttf in Resources */,
+				121BE99A291CF53500F48A42 /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/.xcode.env.local",
-				"$(SRCROOT)/.xcode.env",
-			);
-			name = "Bundle React Native code and images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
-		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		5BE7BED24F7AAE267F976D3F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Odole/Pods-Odole-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Odole/Pods-Odole-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Odole/Pods-Odole-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Odole/Pods-Odole-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Odole/Pods-Odole-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Odole/Pods-Odole-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -344,21 +399,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Odole-OdoleTests/Pods-Odole-OdoleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		C91F35BA5A69A539C0EB5967 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Odole/Pods-Odole-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Odole/Pods-Odole-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Odole/Pods-Odole-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Odole/Pods-Odole-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Odole/Pods-Odole-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Odole/Pods-Odole-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
