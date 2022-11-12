@@ -3,16 +3,16 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/AntDesign';
 
 
-import Browse from '../../../src/screens/TabScreens/MapsTab/Maps';
-import Library from '../../../src/screens/TabScreens/ProfileTab/Profile';
-import CustomTabBar from "./CustomTabBar";
-import ChatScreen from "../../../src/screens/TabScreens/ChatTab/ChatScreen";
+import Browse from '../../screens/TabScreens/MapsTab/Maps';
+import Library from '../../screens/TabScreens/ProfileTab/Profile';
+import CustomTabBar from './CustomTabBar';
+import ChatScreen from '../../screens/TabScreens/ChatTab/ChatScreen';
 
 const Tab = createBottomTabNavigator();
 
 
 
-const screenOptions = (route, color) => {
+const screenOptions = (route: any, color: string) => {
   let iconName;
 
   switch (route.name) {
