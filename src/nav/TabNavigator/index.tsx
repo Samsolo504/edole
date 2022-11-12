@@ -4,6 +4,13 @@ import React from 'react';
 import Icon from 'react-native-vector-icons/Ionicons';
 import CustomTabBar from './CustomTabBar';
 
+export type BottomTabParams = {
+  Home: undefined;
+  ProposalManagement: undefined;
+  MapsViewer: undefined;
+  Chat: undefined;
+  Profile: undefined;
+}
 const screenOptions = (route: any, color: string) => {
   let iconName;
 
@@ -43,7 +50,7 @@ const screenOptions = (route: any, color: string) => {
   }
 };
 
-const BottomNavigator = createBottomTabNavigator();
+const BottomNavigator = createBottomTabNavigator<BottomTabParams>();
 
 const TabNavigator = () => {
   return (
