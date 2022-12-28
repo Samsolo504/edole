@@ -14,7 +14,7 @@ const {Navigator, Screen} = createNativeStackNavigator<OnBoardingStackParams>();
 
 const OnBoarding = () => {
   return (
-    <Navigator initialRouteName="Welcome">
+    <Navigator initialRouteName="Welcome" screenOptions={{headerShown: false}}>
       <Screen name="Welcome" component={Welcome} />
       <Screen name="About" component={About} />
       <Screen name="Tutorials" component={Tutorials} />

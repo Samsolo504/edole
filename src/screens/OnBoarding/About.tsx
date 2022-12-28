@@ -1,30 +1,22 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text} from 'react-native';
+import {commonStyles} from '../../utils/styles';
+import {timeOut} from '../../utils';
 
-const About = () => {
+const About = ({navigation}: any) => {
+  timeOut(navigation, 'Tutorials');
   return (
-    <View style={styles.container}>
-      <View style={styles.contentContainer}>
-        <Text style={styles.title}>About</Text>
+    <View style={commonStyles.container}>
+      <View style={commonStyles.contentContainer}>
+        <Text style={commonStyles.title}>Edole</Text>
+        <Text style={commonStyles.text}>
+          Edole means in Togo Local language that There is job. So this App is
+          made to help people especially togolese find job in the area the want
+          to work
+        </Text>
       </View>
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#0f0f0f',
-  },
-  contentContainer: {
-    marginTop: 50,
-    alignItems: 'center',
-    paddingHorizontal: 20,
-  },
-  title: {
-    fontSize: 20,
-    color: '#fff',
-  },
-});
 
 export default About;

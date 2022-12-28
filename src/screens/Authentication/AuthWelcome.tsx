@@ -1,30 +1,22 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text} from 'react-native';
+import {commonStyles} from '../../utils/styles';
+import {NavigatorScreenParams, useNavigation} from '@react-navigation/native';
+import {RootStackParams} from '../../nav/RootNavigator';
 
 const AuthWelcome = () => {
+  const props = useNavigation<NavigatorScreenParams<RootStackParams>>();
+  console.log(props);
+  setTimeout((): void => props.replace('Launch'), 5000);
   return (
-    <View style={styles.container}>
-      <View style={styles.contentContainer}>
-        <Text style={styles.title}>Library</Text>
+    <View style={commonStyles.container}>
+      <View style={commonStyles.contentContainer}>
+        <Text style={commonStyles.title}>You're welcome</Text>
+        <Text style={commonStyles.text}>Have a good experience</Text>
+        <Text style={commonStyles.text}>It is launching Wait a second ...</Text>
       </View>
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#0f0f0f',
-  },
-  contentContainer: {
-    marginTop: 50,
-    alignItems: 'center',
-    paddingHorizontal: 20,
-  },
-  title: {
-    fontSize: 20,
-    color: '#fff',
-  },
-});
 
 export default AuthWelcome;

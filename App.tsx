@@ -67,23 +67,23 @@
 //
 // export default App;
 
-
-
-
-
-
-
 import React from 'react';
 import {StatusBar} from 'react-native';
+import {Provider as ReduxProvider} from 'react-redux';
 
-import RootNavigator from './navOneSource/navigation/RootNavigator';
+// import Index from './navOneSource/navigation/Index';
+import store from './src/redux/store';
+import {NavigationContainer} from '@react-navigation/native';
+import NavigationFlow from './src/nav';
 
 const App = () => {
   return (
-    <>
-      <StatusBar hidden />
-      <RootNavigator />
-    </>
+    <ReduxProvider store={store}>
+      <NavigationContainer>
+        <StatusBar hidden />
+        <NavigationFlow />
+      </NavigationContainer>
+    </ReduxProvider>
   );
 };
 

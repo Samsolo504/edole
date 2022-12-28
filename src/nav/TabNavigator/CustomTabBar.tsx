@@ -1,6 +1,11 @@
 import React from 'react';
 import {BottomTabBar} from '@react-navigation/bottom-tabs';
 import {View} from 'react-native';
+import {screenWidth, screenHeight} from '../../utils';
+
+
+console.log(screenWidth);
+console.log(screenHeight);
 
 const CustomTabBar = (props: any) => {
   return (
@@ -11,8 +16,10 @@ const CustomTabBar = (props: any) => {
         left: 0,
         right: 0,
         backgroundColor: '#fefefe',
-        borderRadius: 25,
+        borderRadius: 10,
+        paddingHorizontal: 10,
         paddingTop: 20,
+        marginHorizontal: 10,
       }}
       // blurType="dark"
       // blurAmount={10}

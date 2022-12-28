@@ -1,30 +1,19 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text} from 'react-native';
+import {commonStyles} from '../../utils/styles';
+import {timeOut} from '../../utils';
 
-const Welcome = () => {
+const Welcome = ({navigation}: any) => {
+  // setTimeout(() => navigation.navigate('About'), 5000);
+  timeOut(navigation, 'About');
   return (
-    <View style={styles.container}>
-      <View style={styles.contentContainer}>
-        <Text style={styles.title}>Welcome</Text>
+    <View style={commonStyles.container}>
+      <View style={commonStyles.contentContainer}>
+        <Text style={commonStyles.title}>Welcome</Text>
+        <Text style={commonStyles.text}>New jobs are waiting for you</Text>
       </View>
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#0f0f0f',
-  },
-  contentContainer: {
-    marginTop: 50,
-    alignItems: 'center',
-    paddingHorizontal: 20,
-  },
-  title: {
-    fontSize: 20,
-    color: '#fff',
-  },
-});
 
 export default Welcome;

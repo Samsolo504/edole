@@ -1,30 +1,19 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text} from 'react-native';
+import { commonStyles } from "../../utils/styles";
 
 const ForgotPassword = () => {
   return (
-    <View style={styles.container}>
-      <View style={styles.contentContainer}>
-        <Text style={styles.title}>Forgot Password</Text>
+    <View style={commonStyles.container}>
+      <View style={commonStyles.contentContainer}>
+        <Text style={commonStyles.title}>Forgot Password</Text>
+        <Text style={commonStyles.text}>Did you forget your Password?</Text>
+        <Text style={commonStyles.text}>
+          Wait for the Next release this Feature is still in Development
+        </Text>
       </View>
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#0f0f0f',
-  },
-  contentContainer: {
-    marginTop: 50,
-    alignItems: 'center',
-    paddingHorizontal: 20,
-  },
-  title: {
-    fontSize: 20,
-    color: '#fff',
-  },
-});
 
 export default ForgotPassword;
